@@ -6,8 +6,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-black p-6 sm:p-12">
       <section className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
-          Gallery
+        <div className="text-center mb-2">
+          <a
+            href="https://luqmanhadi.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-block"
+          >
+            <div className="text-xl font-bold text-gray-900 dark:text-white font-noto-sans-jp group-hover:underline">
+              Luqman Hadi
+            </div>
+            <div className="text-lg text-gray-700 dark:text-gray-300 font-noto-sans-jp group-hover:underline">
+              ルクマン　ハディ
+            </div>
+          </a>
+        </div>
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white font-noto-sans-jp">
+          Portfolio
         </h2>
         <div className="columns-2 xs:columns-3 sm:columns-4 md:columns-5 gap-2 space-y-2">
           {galleryImages.length === 0 ? (
