@@ -21,9 +21,14 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white font-noto-sans-jp">
+        <h2 className="text-3xl font-bold mb-2 text-center text-gray-900 dark:text-white font-noto-sans-jp">
           Portfolio
         </h2>
+        <div className="text-center mb-8">
+          <span className="text-xs text-gray-400 font-noto-sans-jp">
+            Adobe Certified Professional ・ アドビ認定プロフェッショナル
+          </span>
+        </div>
         <div className="columns-2 xs:columns-3 sm:columns-4 md:columns-5 gap-2 space-y-2">
           {galleryImages.length === 0 ? (
             <div className="text-center text-gray-400 col-span-full">
