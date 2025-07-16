@@ -1,0 +1,107 @@
+[
+  {
+    "type": "image",
+    "src": "assets/BobbyJudo_YT-Banner.png",
+    "alt": "BobbyJudo YT Banner"
+  },
+  {
+    "type": "image",
+    "src": "assets/admercy.png",
+    "alt": "Admercy"
+  },
+  {
+    "type": "image",
+    "src": "assets/comedy.png",
+    "alt": "Comedy"
+  },
+  {
+    "type": "image",
+    "src": "assets/confirmed-post.png",
+    "alt": "Confirmed Post"
+  },
+  {
+    "type": "image",
+    "src": "assets/confirmed-reviews.png",
+    "alt": "Confirmed Reviews"
+  },
+  {
+    "type": "image",
+    "src": "assets/confirmed.png",
+    "alt": "Confirmed"
+  },
+  {
+    "type": "image",
+    "src": "assets/expo.png",
+    "alt": "Expo"
+  },
+  {
+    "type": "image",
+    "src": "assets/expo2.png",
+    "alt": "Expo2"
+  },
+  {
+    "type": "image",
+    "src": "assets/idofront.png",
+    "alt": "Idofront"
+  },
+  {
+    "type": "image",
+    "src": "assets/indonesia3.png",
+    "alt": "Indonesia3"
+  },
+  {
+    "type": "image",
+    "src": "assets/kokurendaigaku.png",
+    "alt": "Kokurendaigaku"
+  },
+  {
+    "type": "image",
+    "src": "assets/ohisama.png",
+    "alt": "Ohisama"
+  },
+  {
+    "type": "image",
+    "src": "assets/prolabo.png",
+    "alt": "Prolabo"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前3.49.44.png",
+    "alt": "Screenshot 2025-07-10 AM 3.49.44"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前3.49.54.png",
+    "alt": "Screenshot 2025-07-10 AM 3.49.54"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前3.53.20.png",
+    "alt": "Screenshot 2025-07-10 AM 3.53.20"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前4.00.45.png",
+    "alt": "Screenshot 2025-07-10 AM 4.00.45"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前4.02.30.png",
+    "alt": "Screenshot 2025-07-10 AM 4.02.30"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-10 午前4.04.02.png",
+    "alt": "Screenshot 2025-07-10 AM 4.04.02"
+  },
+  {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-07-15 午後12.15.50.png",
+    "alt": "Screenshot 2025-07-15 PM 12.15.50"
+  },
+  {
+    "type": "video",
+    "videoId": "dQw4w9WgXcQ",
+    "alt": "A cool YouTube video"
+  }
+]
