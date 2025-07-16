@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import galleryItems from "./galleryItems.json";
+import galleryItemsData from "./galleryItems.json";
 
 interface GalleryItem {
   type: "image" | "video";
@@ -9,6 +9,8 @@ interface GalleryItem {
   videoId?: string;
   alt: string;
 }
+
+const galleryItems: GalleryItem[] = galleryItemsData as GalleryItem[];
 
 function ImageModal({
   src,
@@ -153,7 +155,7 @@ export default function Home() {
               .
             </div>
           ) : (
-            galleryItems.map((item: GalleryItem, idx) => (
+            galleryItems.map((item, idx) => (
               <div
                 key={item.src || item.videoId || idx}
                 className="mb-2 break-inside-avoid rounded shadow bg-white dark:bg-gray-900 overflow-hidden cursor-pointer group relative"
@@ -210,7 +212,7 @@ export default function Home() {
             src={modalImg} // This is correct, we find the full object to pass the alt text.
             alt={
               galleryItems.find((item) => item.src === modalImg)?.alt ??
-              "Preview"
+              "Preview Image"
             }
             onClose={() => setModalImg(null)}
           />
