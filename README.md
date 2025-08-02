@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# luqman-gallery
+
+luqman-gallery is a modern web photo gallery built with Next.js and React. It allows you to showcase, organize, and view images in a beautiful, responsive interface.
+
+## Features
+
+- Responsive grid and masonry layouts for images
+- Fullscreen lightbox view for each photo
+- Mobile-friendly design
+- Easy to add or update images (just place them in the `public/photos` folder)
+- Fast performance with Next.js static optimization
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/luqhardy/luqman-gallery.git
+   cd luqman-gallery
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+3. **Add your images:**
+   - Place your images in the `public/photos` directory. Supported formats: `.jpg`, `.png`, `.webp`, etc.
+   - Update the gallery image list in the code if needed.
+4. **Run the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+5. **Open in your browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Project Structure
+
+```
+luqman-gallery/
+  ├── src/
+  │   ├── app/           # Next.js app directory
+  │   ├── components/    # React components
+  │   └── ...
+  ├── public/
+  │   └── photos/        # Your gallery images
+  ├── package.json
+  ├── next.config.js/ts
+  └── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Credits
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Built by Luqman Hardy
+- Powered by [Next.js](https://nextjs.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
