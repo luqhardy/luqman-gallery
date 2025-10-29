@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import galleryItemsData from "./galleryItems.json";
+import { Analytics } from "@vercel/analytics/next"
 
 interface GalleryItem {
   type: "image" | "video";
@@ -10,7 +11,7 @@ interface GalleryItem {
   alt: string;
 }
 
-const galleryItems: GalleryItem[] = galleryItemsData as GalleryItem[];
+
 
 function ImageModal({
   src,
@@ -61,6 +62,7 @@ function ImageModal({
         />
       </div>
     </div>
+    
   );
 }
 
@@ -146,7 +148,7 @@ export default function Home() {
           </span>
         </div>
         <div className="columns-2 xs:columns-3 sm:columns-4 md:columns-5 gap-2 space-y-2">
-          {galleryItems.length === 0 ? (
+          {(galleryItemsData as GalleryItem[]).length === 0 ? (
             <div className="text-center text-gray-400 col-span-full">
               No items yet. Add images and videos to{" "}
               <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded">
@@ -155,9 +157,9 @@ export default function Home() {
               .
             </div>
           ) : (
-            galleryItems.map((item, idx) => (
+            (galleryItemsData as GalleryItem[]).map((item, idx) => (
               <div
-                key={item.src || item.videoId || idx}
+                key={`${item.type}-${idx}`}
                 className="mb-2 break-inside-avoid rounded shadow bg-white dark:bg-gray-900 overflow-hidden cursor-pointer group relative"
                 onClick={() => {
                   if (item.type === "image" && item.src) {
@@ -211,7 +213,7 @@ export default function Home() {
           <ImageModal
             src={modalImg} // This is correct, we find the full object to pass the alt text.
             alt={
-              galleryItems.find((item) => item.src === modalImg)?.alt ??
+              (galleryItemsData as GalleryItem[]).find((item) => item.src === modalImg)?.alt ??
               "Preview Image"
             }
             onClose={() => setModalImg(null)}

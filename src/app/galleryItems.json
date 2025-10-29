@@ -105,15 +105,16 @@
     "alt": "Screenshot 2025-09-05 午前10.48.40.png"
   },
   {
+    "type": "image",
+    "src": "assets/スクリーンショット 2025-10-30 午前12.21.27.png",
+    "alt": "xseekers"
+  },
+  {
     "type": "video",
     "videoId": "17eBOLpquoo",
     "alt": "A cool YouTube video"
   },
-    {
-    "type": "video",
-    "videoId": "fc9cZ6DIcbM",
-    "alt": "Bumble"
-  },
+    
   {
     "type": "video",
     "videoId": "QeqleoKCtQ4",
@@ -124,14 +125,26 @@
     "videoId": "lqhdJI2slLs",
     "alt": "Square"
   },
-  {
+    {
     "type": "video",
-    "videoId": "cYnHyqDk0jg",
-    "alt": "Square 2"
+    "videoId": "pyW88wYED38",
+    "alt": "Square 4"
   },
   {
     "type": "video",
-    "videoId": "ctgVAtOcSwY",
-    "alt": "Square 3"
+    "videoId": "knbyqpRyTYc",
+    "alt": "Square 5"
+  },
+  {
+    "type": "video",
+    "videoId": "7uVQVedU708",
+    "alt": "Square 6"
+  },
+  {
+    "type": "video",
+    "videoId": "xvlxRVXnOoc",
+    "alt": "Square 7"
   }
+
+
 ]
