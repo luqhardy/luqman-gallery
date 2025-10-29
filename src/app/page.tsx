@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import galleryItemsData from "./galleryItems.json";
-import { Analytics } from "@vercel/analytics/next"
+
 
 interface GalleryItem {
   type: "image" | "video";
