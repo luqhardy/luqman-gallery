@@ -41,11 +41,6 @@
   },
   {
     "type": "image",
-    "src": "assets/idofront.png",
-    "alt": "Idofront"
-  },
-  {
-    "type": "image",
     "src": "assets/indonesia3.png",
     "alt": "Indonesia3"
   },
@@ -99,7 +94,7 @@
     "src": "assets/スクリーンショット 2025-07-15 午後12.15.50.png",
     "alt": "Screenshot 2025-07-15 PM 12.15.50"
   },
-    {
+  {
     "type": "image",
     "src": "assets/スクリーンショット 2025-09-05 午前10.48.40.png",
     "alt": "Screenshot 2025-09-05 午前10.48.40.png"
@@ -114,7 +109,6 @@
     "videoId": "17eBOLpquoo",
     "alt": "A cool YouTube video"
   },
-    
   {
     "type": "video",
     "videoId": "QeqleoKCtQ4",
@@ -125,7 +119,7 @@
     "videoId": "lqhdJI2slLs",
     "alt": "Square"
   },
-    {
+  {
     "type": "video",
     "videoId": "pyW88wYED38",
     "alt": "Square 4"
@@ -145,6 +139,4 @@
     "videoId": "xvlxRVXnOoc",
     "alt": "Square 7"
   }
-
-
 ]
